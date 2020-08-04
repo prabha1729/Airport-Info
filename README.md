@@ -3,11 +3,18 @@
 This is a spring boot web project that returns
    - airport information  
    - the distance between the 2 airports in miles.
+## Usage
+```
+# To build the project standard maven build is sufficient
+mvn clean install
 
-To build the project standard maven build is sufficient `mvn clean install`
+# To start/run the project spring boot maven plugin is included just run
+mvn spring-boot:run
 
-To start/run the project spring boot maven plugin is included just run `mvn spring-boot:run`
-
+# The integration test may be executed using
+mvn test
+```
+ 
 Once the application is started,
 ## To get the Airport Info 
 - Goto http://localhost:8082/airport/{IATAcode} which return all information available about the airport inputted.
