@@ -10,7 +10,7 @@ To start/run the project spring boot maven plugin is included just run `mvn spri
 
 Once the application is started,
 ## To get the Airport Info 
-- Goto http://localhost:8082/airport/{IATAcode})  which return all information available about the airport inputted.
+- Goto http://localhost:8082/airport/{IATAcode} which return all information available about the airport inputted.
 
 ## To get the distance between airports
 - Goto http://localhost:8082/airport?originAirportCode={IATAcode}&destinationAirportCode={IATAcode} return the distance in miles between the 2 airports
