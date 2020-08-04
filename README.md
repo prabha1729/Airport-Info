@@ -1,4 +1,4 @@
-# Grainger Coding Sample
+# Grainger Coding Challenge
 
 This is a spring boot web project that returns
    - airport information  
