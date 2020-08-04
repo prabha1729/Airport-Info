@@ -13,7 +13,7 @@ Once the application is started,
 - Goto [http://localhost:8082/airport/{IATA code}](http://localhost:3000)  which return all information available about the airport inputted.
 
 ## To get the distance between airports
-- Goto [http://localhost:8082/airport?originAirportCode={IATA code}&destinationAirportCode={IATA code}] (http://localhost:8082/airport?originAirportCode={IATA code}&destinationAirportCode={IATA code})return the distance in miles between the 2 airports
+- Goto [http://localhost:8082/airport?originAirportCode={IATA code}&destinationAirportCode={IATA code}](http://localhost:8082/airport?originAirportCode={IATA code}&destinationAirportCode={IATA code}) return the distance in miles between the 2 airports
 
 
 
